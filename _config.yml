@@ -11,7 +11,7 @@ tagline: Start e-commerce on your website.
 baseurl:
 url:  https://ipsp-php.com
 
-remote_theme: owner/name
+remote_theme: kosatyi/sjt
 
 paginate: 8
 paginate_path: "/blog/page-:num/"
