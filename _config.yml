@@ -1,0 +1,131 @@
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+#Others
+markdown: kramdown
+# Setup
+title:   IPSP PHP SDK
+tagline: Start e-commerce on your website.
+baseurl:
+url:  https://ipsp-php.com
+
+remote_theme: owner/name
+
+paginate: 8
+paginate_path: "/blog/page-:num/"
+
+banner:
+  url: https://fondy.eu/
+  image: /assets/images/brand.svg
+
+styles:
+  - //maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+  - //fonts.googleapis.com/css?family=Open+Sans:300,400,700
+  - //fonts.googleapis.com/css?family=Pacifico
+  - /assets/css/ipsp.css?v1.0.27
+
+javascript:
+  - /assets/js/jquery.js
+  - /assets/js/jquery.ejs.js
+  - /assets/js/jquery.connector.js
+  - /assets/js/main.js
+  - /assets/js/ipsp.js?v1.0.27
+
+toolbar:
+-
+  name: Join Now
+  link: /activation/signup.html
+  class: btn-signup
+-
+  name: About
+  link: /sdk/
+-
+  name: Documentation
+  link: /docs/
+-
+  name: Blog
+  link: /blog/
+
+analytics: UA-100124713-1
+
+# Seo
+social:
+  name: IPSP PHP SDK
+  links:
+    - https://www.facebook.com/ipsp.sdk/
+    - https://twitter.com/ipspsdk/
+    - https://plus.google.com/101483721165557150473
+    - https://github.com/kosatyi/ipsp-php
+    - https://packagist.org/packages/kosatyi/ipsp-php
+    - https://libraries.io/packagist/kosatyi%2Fipsp-php
+
+twitter:
+  username: ipspsdk
+
+facebook:
+  publisher: https://www.facebook.com/ipsp.sdk/
+
+webmaster_verifications:
+  google: ytqWppv3WHbrMA_P7TOtYHvti5LbegWZnv4s5JOaLBE
+
+author:
+  name: Stepan Kosatyi
+  twitter: kosatyi
+  url: https://kosatyi.com/
+
+# Site variables
+buttons:
+  -
+    name: View on GitHub
+    link: https://github.com/kosatyi/ipsp-php
+  -
+    name: Download .zip
+    link: http://github.com/kosatyi/ipsp-php/archive/master.zip
+  -
+    name: Download .tar.gz
+    link: http://github.com/kosatyi/ipsp-php/archive/master.tar.gz
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      sharethis: property=59673d0357e5f5001295d00c&product=sticky-share-buttons
+      image:
+        path:  /assets/images/cover.jpg
+        height: 1200
+        width: 444
+  -
+    scope:
+        path: ""
+        type: "posts"
+    values:
+        categories:
+        description:
+        headline: ""
+        tagline: ""
+        layout : "default"
+        comments: true
+        permalink: /:categories/:title.html
+  -
+    scope:
+        path: "docs"
+        type: "pages"
+    values:
+        headline: "SDK Docs"
+        tagline: "Ipsp Developer Documentation"
+  -
+    scope:
+        path: "examples"
+        type: "pages"
+    values:
+        headline: "Showcase"
+        tagline: "Browse the showcase to see some of our favorite implementations"
+  -
+    scope:
+        path: "modules"
+        type: "pages"
+    values:
+        headline: "Components & Helpers"
+        tagline: "Useful components for checkout development"
