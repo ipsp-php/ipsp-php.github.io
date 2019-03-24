@@ -7,16 +7,13 @@ plugins:
 port: 4002
 
 baseurl:
-
 navigation: true
-
 remote_theme: kosatyi/sjt
 
 brand: IPSP PHP
 title: Payment SDK
 description: Start e-commerce on your website.
 
-# Seo
 social:
   name: IPSP PHP SDK
   links:
