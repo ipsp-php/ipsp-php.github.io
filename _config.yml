@@ -6,7 +6,7 @@ plugins:
 
 port: 4002
 
-baseurl:
+baseurl: /
 navigation: true
 remote_theme: kosatyi/sjt
 
