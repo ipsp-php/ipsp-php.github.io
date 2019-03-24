@@ -6,7 +6,7 @@ plugins:
 
 port: 4002
 
-baseurl: /
+baseurl:
 navigation: true
 remote_theme: kosatyi/sjt
 
@@ -46,5 +46,4 @@ toolbar:
     name: Signup/Signin
     link: https://portal.fondy.eu/
 
-#github:
-#  repository_url: https://github.com/ipsp-php/ipsp-php
+source_url: https://github.com/ipsp-php/ipsp-php
