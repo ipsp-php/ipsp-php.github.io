@@ -46,5 +46,5 @@ toolbar:
     name: Signup/Signin
     link: https://portal.fondy.eu/
 
-github:
-  repository_url: https://github.com/ipsp-php/ipsp-php
+#github:
+#  repository_url: https://github.com/ipsp-php/ipsp-php
