@@ -8,9 +8,10 @@ popular CMS modules for fast integration in existing infrastructure.
 [![Coverage Status](https://coveralls.io/repos/github/ipsp-php/ipsp-php/badge.svg?branch=master)](https://coveralls.io/github/ipsp-php/ipsp-php)
 [![Downloads](https://img.shields.io/packagist/dt/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
 [![Licence](https://img.shields.io/github/license/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
+{: .text-center}
 
 [![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com)
-{.text-center}
+{: .text-center}
 
 ## Installation
 
