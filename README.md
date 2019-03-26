@@ -10,6 +10,7 @@ popular CMS modules for fast integration in existing infrastructure.
 [![Licence](https://img.shields.io/github/license/ipsp-php/ipsp-php.svg)](https://packagist.org/packages/ipsp-php/ipsp-php)
 
 [![Checkout Page Example PHP (SDK)](https://i.imgur.com/7pZYzfV.png)](https://ipsp-php.com)
+{.text-center}
 
 ## Installation
 
