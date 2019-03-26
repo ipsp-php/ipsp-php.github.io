@@ -1,4 +1,4 @@
-# IPSP PHP SDK
+# IPSP PHP
 
 Flexible software development kit that covers e-commerce for businesses of all types and support
 popular CMS modules for fast integration in existing infrastructure.

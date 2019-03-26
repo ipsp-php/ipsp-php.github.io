@@ -15,7 +15,7 @@ title: Fondy Payment SDK
 description: Start e-commerce on your website.
 
 social:
-  name: IPSP PHP SDK
+  name: IPSP PHP
   links:
     - https://www.facebook.com/ipsp.sdk/
     - https://twitter.com/ipspsdk/
@@ -33,9 +33,12 @@ facebook:
 webmaster_verifications:
   google: ytqWppv3WHbrMA_P7TOtYHvti5LbegWZnv4s5JOaLBE
 
+image:
+  path: /assets/images/cover.png
 
 author:
   name: Stepan Kosatyi
+  twitter: kosatyi
   url: https://kosatyi.com/
 
 toolbar:
@@ -45,5 +48,15 @@ toolbar:
   -
     name: Signup/Signin
     link: https://portal.fondy.eu/
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path:  /assets/images/cover.jpg
+        width: 560
+        height: 315
 
 source_url: https://github.com/ipsp-php/ipsp-php
