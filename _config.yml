@@ -33,9 +33,6 @@ facebook:
 webmaster_verifications:
   google: ytqWppv3WHbrMA_P7TOtYHvti5LbegWZnv4s5JOaLBE
 
-image:
-  path: /assets/images/cover.png
-
 author:
   name: Stepan Kosatyi
   twitter: kosatyi
@@ -55,7 +52,7 @@ defaults:
       path: ""
     values:
       image:
-        path:  /assets/images/cover.jpg
+        path:  /assets/images/cover.png
         width: 560
         height: 315
 
