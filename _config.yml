@@ -10,9 +10,14 @@ baseurl:
 navigation: true
 remote_theme: kosatyi/sjt
 
+github: [metadata]
+
 brand: IPSP PHP
 title: Fondy Payment SDK
 description: Start e-commerce on your website.
+
+styles:
+  - /assets/css/ipsp.css
 
 analytics: UA-100124713-2
 
@@ -46,7 +51,7 @@ toolbar:
     link: /docs/
   -
     name: Signup/Signin
-    link: https://portal.fondy.eu/
+    link: https://portal.fondy.eu/mportal/#/connect/52
 
 
 defaults:
